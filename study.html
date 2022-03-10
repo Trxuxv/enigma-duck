@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div>
+        <input type="text" id="name" placeholder="Type your name">
+
+        <button type="button" onclick="saveValueName()" id="send-name">
+            submit
+        </button>
+        <h1>Enigma</h1>
+    </div>
+    <hr>
+    <div class="name-user">
+        Hello <b id="nameValue"> </b> you have to trig a duck in the screen, use your chat to do it.  <i>*tip(be kind)</i>
+    </div>
+
+    <script>
+        let name = localStorage.getItem("nameLS");
+        const element = document.getElementById("nameValue");
+        element.innerHTML = name;
+    </script>
+
+    <hr>
+    <div>
+        <div class="card-1">
+            <form>
+                <label for="fname">Your message</label><br>
+                <input type="text" id="domTextElement" placeholder="Type a message..." name="item">
+                <button type="button" onclick="getValueInput()">
+                    send
+                </button>
+            </form>
+        </div>
+        <div class="card-2">
+            <div id="valueInput"></div>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

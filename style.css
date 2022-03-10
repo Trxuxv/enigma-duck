@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+}
+
+.card-1 {
+    width: 45%;
+    float: left;
+    padding: 1rem;
+    background-color: aliceblue;
+    text-align: right;
+}
+
+.card-2 {
+    width: 20%;
+    float: left;
+    padding: 1rem;
+}
+
+#valueInput {
+    height: auto;
+    line-break: auto;
+    min-height: 24px;
+    border: 0.5px solid black;
+    margin-top: 4rem;
+}
+
+#name {
+    margin-left: 1rem;
+    margin-top: 2rem;
+    position: absolute;
+    left: 0px;
+    float: left;
+    top: 0px;
+    /* z-index: ; */
+}
+
+.name-user {
+    text-align: center;
+}
+
+#send-name {
+    margin-left: 10rem;
+    margin-top: 2rem;
+    position: absolute;
+    left: 0px;
+    float: left;
+    top: 0px;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    font-style: italic;
+}
