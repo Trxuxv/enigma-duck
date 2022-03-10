@@ -51,3 +51,18 @@ h1 {
     /* Edge */
     font-style: italic;
 }
+
+.duck-win {
+    margin: auto;
+    background-image: url("./src/fuck.jpg");
+    background-size: contain;
+    width: 25%;
+    height: 38em;
+    margin-top: 15rem;
+    background-repeat: no-repeat;
+}
+
+.part-2 {
+    height: auto;
+    padding-top: 5rem;
+}
