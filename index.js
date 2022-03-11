@@ -6,8 +6,8 @@ const oi = document.getElementById("target");
 oi.style.display = 'none'
 
 
-// const fase_3 = document.getElementById("fase-3");
-// fase_3.style.display = 'none'
+const fase_3 = document.getElementById("fase-3");
+fase_3.style.display = 'none'
 
 const body = document.getElementById("body");
 
@@ -111,7 +111,8 @@ const getValueInput = () => {
 }
 
 const whatTimeIs = () => {
-    fase_3.display = "block"
+    
+    fase_3.style.display = "block"
 }
 
 const saveValueName = () => {
