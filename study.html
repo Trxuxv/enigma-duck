@@ -2,50 +2,59 @@
 <html>
 
 <head>
-    <title>Javascript</title>
+    <title>Duck Enigma</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
-<body>
-    <div>
-        <input type="text" id="name" placeholder="Type your name">
-
-        <button type="button" onclick="saveValueName()" id="send-name">
-            submit
-        </button>
-        <h1>Enigma</h1>
+<body id="body">
+    <div id="screen">
+        ERROR
     </div>
-    <hr>
-    <div class="name-user">
-        Hello <b id="nameValue"> </b> you have to trig a duck in the screen, use your chat to do it. <i>*tip(be
-            kind)</i>
-    </div>
+    <div id="normal-screen">
+        <div>
+            <!-- <input type="text" id="name" placeholder="Type your name">
 
-    <script>
-        let name = localStorage.getItem("nameLS");
-        const element = document.getElementById("nameValue");
-        element.innerHTML = name;
-    </script>
-    <hr>
-    <div>
-        <div class="card-1">
-            <form>
-                <label for="fname">Your message</label><br>
-                <input type="text" id="domTextElement" placeholder="Type a message..." name="item">
-                <button type="button" onclick="getValueInput()">
-                    send
-                </button>
-            </form>
+            <button type="button" onclick="saveValueName()" id="send-name">
+                submit
+            </button> -->
+            <h1>Enigma</h1>
         </div>
-        <div class="card-2">
-            <div id="valueInput"></div>
-            </p>
+        <hr>
+        <div class="name-user">
+            Hello
+            you have to trig a duck in the screen, use your chat to do it. <i>*tip(be
+                kind)</i>
         </div>
-    </div>
+        <hr>
+        <div>
+            <div class="card-1">
+                <form>
+                    <!-- <label for="fname">Your message</label><br> -->
+                    <input type="text" id="domTextElement" placeholder="..." name="item">
+                    <button type="button" onclick="getValueInput()">
+                        send
+                    </button>
+                    <div id="sip">
+                        <div id="valueInput"></div>
+                        <div id="buyton"><button id="btn-clocl" onclick="whatTimeIs()">go on -- click me</button></div>
+                    </div>
+                    <div id="fase-3">
+                        <div id="what-time">
+                            <h3>What tIME is IT???||</h3>
+                            <input type="text">
+                        </div>
+                        <div id="clock">
+                            <img src="./src/clock.png" alt="">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
 
-    <div class="part-2">
-        <div id="target" class="duck-win">
-
+        <div class="part-2">
+            <div id="target" class="duck-win">
+            </div>
         </div>
     </div>
 </body>
